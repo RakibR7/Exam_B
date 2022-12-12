@@ -15,9 +15,51 @@ public class Personsuper extends Person {
 
     @Override
     public String toString() {
-        return "Personsuper{" +
-                "PersonsuperName='" + PersonsuperName + '\'' +
-                ", Shiftlist=" + Shiftlist +
+        return "Personsuper invalid shift  {" +
+                "PersonsuperName ='" + PersonsuperName + '\'' +
+                ", Shiftlist =" + Shiftlist +
                 '}';
     }
+
+
+    @Override
+    public String getName() {
+        return super.getName();
+    }
+
+    @Override
+    public void setName(String name) {
+        super.setName(name);
+    }
+
+    @Override
+    public String getGender() {
+        return super.getGender();
+    }
+
+    @Override
+    public void setGender(String gender) {
+        super.setGender(gender);
+    }
+
+    @Override
+    public boolean isShift() {
+        return super.isShift();
+    }
+
+    @Override
+    public void setShift(boolean shift) {
+        super.setShift(shift);
+    }
+
+    @Override
+    public String getAge() {
+        return super.getAge();
+    }
+
+    @Override
+    public void setAge(String age) {
+        super.setAge(age);
+    }
+
 }
